@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-color: #1a1a1a;
+  font-family: 'Lilita One', cursive;}
+
+
+
+h1 {
+  font-size: 5rem;
+  color: #fff;
+  text-shadow: 3px 3px 10px rgba(255, 0, 0, 0.7);
+  font-family: 'Lilita One', cursive; }
+
+.w {
+  background-color: #ff007f;
+}
+
+.a {
+  background-color: #ffcc00;
+}
+
+.s {
+  background-color: #00ff00;
+}
+
+.d {
+  background-color: #00ffff;
+}
+
+.j {
+  background-color: #ff00ff;
+}
+
+.k {
+  background-color: #ff6600;
+}
+
+.l {
+  background-color: #33cc33;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+
+@keyframes flash {
+  0% { background-color: #ff007f; }
+  25% { background-color: #ffcc00; }
+  50% { background-color: #00ff00; }
+  75% { background-color: #00ffff; }
+  100% { background-color: #ff00ff; }
+}
+
+.drum:hover {
+  animation: flash 0.5s infinite alternate;
+}
+
+
+
